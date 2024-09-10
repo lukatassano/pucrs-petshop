@@ -1,0 +1,97 @@
+:root {
+  --bs-primary: #6c63ff;
+  --bs-secondary: #5149cc;
+  --bs-success: #28a745;
+  --bs-danger: #ff6f61;
+  --bs-warning: #ffd700;
+  --bs-info: #63b3ff;
+  --bs-light: #f4f4ff;
+  --bs-dark: #2e2d4d;
+}
+
+.contained-button {
+  background-color: #6c63ff;
+  border-color: #6c63ff;
+  color: white;
+  transition: opacity 0.3s;
+}
+
+.contained-button:hover {
+  opacity: 0.8;
+  background-color: #6c63ff;
+  color: white;
+}
+
+.outlined-button {
+  border-radius: 4px;
+  border: 1px solid var(--bs-primary);
+  background-color: transparent;
+  color: white;
+  transition: opacity 0.3s;
+}
+
+.outlined-button:hover {
+  opacity: 0.8;
+  background-color: transparent;
+  color: white;
+}
+
+.my-custom-btn-primary {
+  background-color: var(--bs-primary);
+  color: white;
+  border: none;
+}
+
+.my-custom-btn-secondary {
+  background-color: var(--bs-secondary);
+  color: white;
+  border: none;
+}
+
+.my-custom-alert-success {
+  background-color: var(--bs-success);
+  color: white;
+}
+
+.my-custom-alert-danger {
+  background-color: var(--bs-danger);
+  color: white;
+}
+
+.my-custom-alert-warning {
+  background-color: var(--bs-warning);
+  color: black;
+}
+
+.my-custom-alert-info {
+  background-color: var(--bs-info);
+  color: white;
+}
+
+.my-custom-bg-light {
+  background-color: var(--bs-light);
+  color: black;
+}
+
+.my-custom-bg-dark {
+  background-color: var(--bs-dark);
+  color: white;
+}
+
+.my-custom-header {
+  background-color: var(--bs-dark);
+  color: var(--bs-light);
+  padding: 10px;
+  text-align: center;
+}
+
+.my-custom-footer {
+  background-color: var(--bs-primary);
+  color: var(--bs-light);
+  padding: 20px;
+  text-align: center;
+}
+
+body {
+  background-color: #f8f9fa;
+}
